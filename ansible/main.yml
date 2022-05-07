@@ -1,0 +1,4 @@
+- host: localhost
+  become: true
+  roles:
+    - { role: setup-sftp }
